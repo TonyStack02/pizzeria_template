@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu | Pizzeria BellaVita</title>
+  <meta name="description" content="Il menu completo: pizze, focacce, hamburger, contorni, bibite e dolci.">
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-blur">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html#home">
+        <span class="badge badge-soft rounded-pill px-3 py-2 fw-bold">Forno a legna</span>
+        <span class="brand-script fs-4">BellaVita</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">La nostra storia</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contatti">Contatti</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-brand btn-sm rounded-pill nav-cta" href="index.html#prenota">Prenota</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO del menu -->
+  <header class="menu-hero">
+    <div class="container text-center position-relative">
+      <h1 class="display-5 fw-bold brand-script mb-2 text-white">Il Menu</h1>
+      <p class="text-white-50 mb-0">Pizze, focacce, hamburger, contorni, bibite e dolci.</p>
+    </div>
+  </header>
+
+  <!-- Sub-nav sticky per categorie -->
+  <div class="menu-subnav">
+    <div class="container">
+      <nav class="nav justify-content-center flex-wrap gap-2">
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#pizze">Pizze</a>
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#focacce">Focacce</a>
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#hamburger">Hamburger</a>
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#contorni">Contorni</a>
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#bibite">Bibite</a>
+        <a class="btn btn-outline-dark btn-sm px-3 rounded-pill" href="#dolci">Dolci</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="pb-5">
+    <div class="container" style="max-width: var(--container-menu-max-w);">
+
+      <!-- ================= PIZZE (18) ================= -->
+      <section id="pizze" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🍕 Pizze</h2>
+          <p class="text-muted mb-0 small">Impasto a lunga lievitazione • Mozzarella fiordilatte • Pomodoro San Marzano DOP</p>
+        </div>
+
+        <div class="row g-3">
+          <!-- colonna 1 -->
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Margherita <span class="menu-price float-end">€6</span></h5>
+              <p class="text-muted mb-0">Pomodoro, fiordilatte, basilico, olio EVO.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Marinara <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Pomodoro, aglio, origano, olio EVO.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Diavola <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Salame piccante, fiordilatte, pomodoro.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Prosciutto e Funghi <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Cotto di alta qualità, champignon, fiordilatte.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Quattro Stagioni <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Cotto, carciofi, olive, funghi.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Capricciosa <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Cotto, olive, funghi, carciofi, uovo sodo.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Quattro Formaggi <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Fiordilatte, gorgonzola, grana, provola.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Bufalina <span class="menu-price float-end">€10</span></h5>
+              <p class="text-muted mb-0">Mozzarella di bufala DOP, pomodoro, basilico.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Napoli <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Acciughe, capperi, olive, pomodoro, fiordilatte.</p>
+            </div>
+          </div>
+
+          <!-- colonna 2 -->
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Ortolana <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Verdure grigliate di stagione, fiordilatte.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Tonno e Cipolla <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Tonno, cipolla rossa, pomodoro, fiordilatte.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Boscaiola <span class="menu-price float-end">€10</span></h5>
+              <p class="text-muted mb-0">Funghi porcini, salsiccia, fiordilatte.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Speck & Brie <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Speck affumicato, brie, fiordilatte.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Crudo & Rucola <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Prosciutto crudo, rucola, scaglie di grana.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Salsiccia & Friarielli <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Friarielli saltati, salsiccia, provola.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Mortadella & Pistacchio <span class="menu-price float-end">€12</span></h5>
+              <p class="text-muted mb-0">Mortadella IGP, burrata, granella di pistacchio.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Tartufo di Stagione <span class="menu-price float-end">€14</span></h5>
+              <p class="text-muted mb-0">Crema di tartufo, fiordilatte, porcini.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Calzone Classico <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Ricotta, salame, fiordilatte, pomodoro.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FOCACCE (6) ================= -->
+      <section id="focacce" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🥖 Focacce</h2>
+          <p class="text-muted mb-0 small">Semplici, farcite e gourmet</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Classica al rosmarino <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Olio EVO, rosmarino, sale in fiocchi.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Caprese <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Pomodoro, fiordilatte, basilico, origano.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Porchetta & Scamorza <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Porchetta al coltello, scamorza affumicata.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Crudo & Stracciatella <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Prosciutto crudo, stracciatella, rucola.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Verdure grigliate <span class="menu-price float-end">€8</span></h5>
+              <p class="text-muted mb-0">Melanzane, zucchine, peperoni, olio EVO.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Gourmet tartufo <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Crema di tartufo, fiordilatte, funghi.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= HAMBURGER (8) ================= -->
+      <section id="hamburger" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🍔 Hamburger</h2>
+          <p class="text-muted mb-0 small">Pane artigianale • Carne selezionata • Salse della casa</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Classic <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Manzo 180g, lattuga, pomodoro, cheddar, salsa della casa.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Cheese Lover <span class="menu-price float-end">€10</span></h5>
+              <p class="text-muted mb-0">Manzo 180g, doppio cheddar, cipolla, cetriolini.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Bacon & Cheese <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Manzo 180g, bacon croccante, cheddar, maionese affumicata.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>BBQ Ranch <span class="menu-price float-end">€11</span></h5>
+              <p class="text-muted mb-0">Manzo 180g, salsa BBQ, cipolla caramellata, lattuga.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Double Smash <span class="menu-price float-end">€13</span></h5>
+              <p class="text-muted mb-0">Doppio manzo 2×100g, doppio cheddar, pickles.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Chicken Crispy <span class="menu-price float-end">€10</span></h5>
+              <p class="text-muted mb-0">Filetto di pollo croccante, insalata, salsa allo yogurt.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Veggie <span class="menu-price float-end">€9</span></h5>
+              <p class="text-muted mb-0">Burger vegetale, pomodoro, lattuga, crema allo yogurt.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Truffle Burger <span class="menu-price float-end">€12</span></h5>
+              <p class="text-muted mb-0">Manzo 180g, crema di tartufo, provola.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTORNI (8) ================= -->
+      <section id="contorni" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🥗 Contorni</h2>
+          <p class="text-muted mb-0 small">Per accompagnare come si deve</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Patatine fritte <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Classiche, sale in fiocchi.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Patate rustiche <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Al forno con erbe e paprika dolce.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Verdure grigliate <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Zucchine, melanzane, peperoni.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Insalata mista <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Verdure fresche di stagione, olio EVO e limone.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Onion Rings <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Anelli di cipolla croccanti.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Mozzarella sticks <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Bastoncini di mozzarella dorati.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Insalata rucola & grana <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Con pomodorini e glassa di aceto balsamico.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Crocchette di patate <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Dorate, cuore morbido.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= BIBITE ================= -->
+      <section id="bibite" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🥤 Bibite</h2>
+          <p class="text-muted mb-0 small">Le classiche, acqua e birre alla spina e in bottiglia</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Soft drink <span class="menu-price float-end">€3</span></h5>
+              <p class="text-muted mb-0">Cola, aranciata, limonata, tè freddo.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Acqua naturale 0,5 L <span class="menu-price float-end">€1.50</span></h5>
+              <p class="text-muted mb-0">Bottiglia PET.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Acqua frizzante 0,5 L <span class="menu-price float-end">€1.50</span></h5>
+              <p class="text-muted mb-0">Bottiglia PET.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Acqua naturale 1 L <span class="menu-price float-end">€2.50</span></h5>
+              <p class="text-muted mb-0">Vetro.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Acqua frizzante 1 L <span class="menu-price float-end">€2.50</span></h5>
+              <p class="text-muted mb-0">Vetro.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Birra alla spina Pils 0,3 L <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Chiara, fresca, moderatamente amara.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Birra alla spina Pils 0,5 L <span class="menu-price float-end">€6</span></h5>
+              <p class="text-muted mb-0">Per gli assetati seri.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Birra alla spina IPA 0,3 L <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Aromi agrumati e resinosi.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Birra alla spina Weizen 0,5 L <span class="menu-price float-end">€6</span></h5>
+              <p class="text-muted mb-0">Di frumento, note di banana e chiodi di garofano.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Birra in bottiglia (33cl) <span class="menu-price float-end">€4–6</span></h5>
+              <p class="text-muted mb-0">Moretti, Ichnusa, Heineken, Artigianale selezione.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= DOLCI (8) ================= -->
+      <section id="dolci" class="menu-section">
+        <div class="menu-head">
+          <h2 class="h3 fw-bold brand-script mb-1">🍰 Dolci</h2>
+          <p class="text-muted mb-0 small">Fatti in casa o selezionati dai migliori laboratori</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Tiramisù della casa <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Savoiardi, crema mascarpone, cacao amaro.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Cheesecake ai frutti rossi <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Coulis di frutti di bosco.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Panna cotta <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Caramello / Frutti di bosco / Cioccolato.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Cannolo siciliano <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Ricotta dolce, granella di pistacchio.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-card shadow-sm">
+              <h5>Delizia al limone <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Pan di Spagna, crema al limone.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Profiteroles <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Bigné con crema, copertura al cioccolato.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Brownie con gelato <span class="menu-price float-end">€5</span></h5>
+              <p class="text-muted mb-0">Cioccolato fondente, pallina di vaniglia.</p>
+            </div>
+            <div class="menu-card shadow-sm mt-3">
+              <h5>Gelato artigianale (2 gusti) <span class="menu-price float-end">€4</span></h5>
+              <p class="text-muted mb-0">Selezione del giorno.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center pt-2">
+        <a class="btn btn-brand rounded-pill px-4" href="index.html#prenota">Prenota un tavolo</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 site-footer">
+    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-2">
+      <div>© <span id="year"></span> BellaVita • P.IVA 12345678901</div>
+      <div class="text-secondary">Cookie • Privacy • Allergenici</div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>
