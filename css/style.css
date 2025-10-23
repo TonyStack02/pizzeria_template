@@ -207,7 +207,7 @@ body{
    ========================= */
 .hero{
   position:relative; min-height: 92vh; display:grid; place-items:center;
-  background: var(--hero-image) center/cover fixed;
+  background: var(--hero-image) center/cover /*fixed*/;
 }
 .hero::after{ content:""; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(12,17,23,.45), rgba(12,17,23,.65)); }
 .hero-inner{ position:relative; z-index:2; color:#fff; text-align:center; }
@@ -525,4 +525,5 @@ section{ padding: var(--section-py) 0 }
    ========================= */
 .count-num{ transition: transform .2s ease; }
 .count-num:active{ transform: scale(1.05); }
+
 
