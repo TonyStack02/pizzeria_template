@@ -29,7 +29,7 @@
   --navbar-blur: saturate(140%) blur(8px);
 
   /* Hero / immagini */
-  --hero-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1600&auto=format&fit=crop');
+  --hero-image: url('../background.avif');
   --menu-hero-image: var(--hero-image);
   --about-gradient-from: rgba(255,255,255,.7);
   --about-gradient-to:   rgba(255,255,255,1);
@@ -525,3 +525,4 @@ section{ padding: var(--section-py) 0 }
    ========================= */
 .count-num{ transition: transform .2s ease; }
 .count-num:active{ transform: scale(1.05); }
+
